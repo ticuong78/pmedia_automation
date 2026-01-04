@@ -7,6 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cross-env WEBHOOK_URL=\"https://6d2352ea0f95.ngrok-free.app\" N8N_EDITOR_BASE_URL=\"https://6d2352ea0f95.ngrok-free.app\" n8n start"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
   }
 }
