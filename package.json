@@ -7,9 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env WEBHOOK_URL=\"https://6d2352ea0f95.ngrok-free.app\" N8N_EDITOR_BASE_URL=\"https://6d2352ea0f95.ngrok-free.app\" n8n start"
+    "start:n8n": "cross-env NODE_FUNCTION_ALLOW_BUILTIN=fs,https,http,url NODE_FUNCTION_ALLOW_EXTERNAL=xlsx n8n start"
   },
   "devDependencies": {
     "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
   }
 }
