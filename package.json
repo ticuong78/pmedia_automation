@@ -7,12 +7,13 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start:n8n": "cross-env NODE_FUNCTION_ALLOW_BUILTIN=fs,https,http,url NODE_FUNCTION_ALLOW_EXTERNAL=xlsx n8n start"
+    "start:n8n": "cross-env NODE_FUNCTION_ALLOW_BUILTIN=fs,https,http,url NODE_FUNCTION_ALLOW_EXTERNAL=xlsx,cheerio n8n start"
   },
   "devDependencies": {
     "cross-env": "^10.1.0"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
     "xlsx": "^0.18.5"
   }
 }
