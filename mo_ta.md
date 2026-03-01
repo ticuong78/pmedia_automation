@@ -1,6 +1,6 @@
 # Business Directory Builder
 
-<img src="./imgs/bdb_logo.png" width="300" style="display:block;margin:0 auto; border-radius: 50%" />
+<img src="https://raw.githubusercontent.com/ticuong78/pmedia_automation/master/imgs/bdb_logo.png" width="300" style="display:block;margin:0 auto; border-radius: 50%" />
 
 </br>
 
@@ -80,7 +80,7 @@ Từ trang Facebook được liên kết, có thể thu thập thêm các thông
 - Số điện thoại
 - Email
 
-<img src="./imgs/mo_ta_sdt_mail.png" width="1000" style="display:block;margin:0 auto;" />
+<img src="https://raw.githubusercontent.com/ticuong78/pmedia_automation/master/imgs/mo_ta_sdt_mail.png" width="1000" style="display:block;margin:0 auto;" />
 
 Sau khi thu thập được từ Facebook, điền lại vào record:
 
@@ -114,7 +114,7 @@ Sau khi thu thập được từ Facebook, điền lại vào record:
 
 Truy cập trang Facebook được liên kết với **Anh Anh Academy** sẽ thấy các thông tin như hình bên dưới:
 
-<img src="./imgs/mo_ta_vd.png" width="1000" style="display:block;margin:0 auto;" />
+<img src="https://raw.githubusercontent.com/ticuong78/pmedia_automation/master/imgs/mo_ta_vd.png" width="1000" style="display:block;margin:0 auto;" />
 
 Từ đây có thể suy ra đây là một trung tâm dạy **`Tiếng Anh`**. Thông tin này có thể được bổ sung vào cột `Notes` trong record:
 
